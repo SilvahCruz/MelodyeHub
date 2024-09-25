@@ -7,10 +7,7 @@
     font-family:"Poppins", sans-serif;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
     min-height: 100vh;
     /* background:url('https://img.freepik.com/fotos-gratis/conceito-de-fundo-do-estudio-abstrato-vazio-claro-gradiente-roxo-fundo-do-quarto-do-estudio-para-o-produto_1258-54682.jpg?w=826&t=st=1718914876~exp=1718915476~hmac=ec055a503c6f016968f3a58ff3d558ab8a77cfff75d10e36b720f0cd055819cb');
     background-size: cover; */
@@ -18,12 +15,19 @@ body{
     background: linear-gradient(177deg, rgba(83,6,122,1) 0%, rgba(140,24,193,1) 100%); 
 }
 
+.loginsection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo{
     display: flex;
-    position: absolute;
-    top: 15px;
-    left: 20px;
-    width: 80px;
+    width: 40px;
+   align-content: center;
 }
 
 .wrapper{
