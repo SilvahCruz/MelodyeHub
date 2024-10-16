@@ -113,6 +113,12 @@ header {
     margin: 0;
 }
 
+.imglady {
+   height: 222px;
+   top: 150px;
+   border-radius: 10px;
+}
+
 .card-1, .card-2, .card-3 {
     flex: 1;
     max-width: 340px;
