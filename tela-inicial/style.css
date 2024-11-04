@@ -79,6 +79,7 @@ header {
     background-color: #fff;
     padding: 10px 15px;
     border-radius: 5px;
+    margin-top: 38px;
 }
 
 .login-button button a {
@@ -117,6 +118,11 @@ header {
    height: 450px;
    width: 340px;
    border-radius: 11px;
+   text-align: center;
+}
+
+.textladyimg {
+    color: white;
 }
 
 .card-1, .card-2, .card-3 {
@@ -145,12 +151,12 @@ header {
 
 .card-1 h1, .card-2 h1, .card-3 h1 {
     font-size: .9rem;
-    color: #aaaa;
+    color: white;
 }
 
 .card-1 h2, .card-2 h2, .card-3 h2 {
     font-size: .9rem;
-    color: #aaaa;
+    color: white;
 }
 
 .card-1 button, .card-2 button, .card-3 button {
