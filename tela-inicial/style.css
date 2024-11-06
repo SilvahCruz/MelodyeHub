@@ -31,7 +31,6 @@ body {
 
     margin: 0;
     height: 100vh;
-    width: 100vw;
     background: linear-gradient(287.56deg, #630685cb 0%, #3d0352 100%);
 }
 
@@ -175,10 +174,11 @@ header {
 
 .card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     margin: 0;
+    margin-bottom: 30px;
 }
 
 .imglady {
@@ -198,23 +198,14 @@ header {
     margin: 0 10px;
 }
 
-.card-1 {
-    background-color: #8813978a;
-    width: 340px;
-    height: 450px;
-    border-radius: 12px;
-    box-shadow: 4px 4px 12px #aaaa;
-    margin-left: 80px;
-}
-
 .card-1 div, .card-2 div, .card-3 div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4px;
-    height: 20%;
+    gap: 4px; 
 }
+
 
 .card-1 h1, .card-2 h1, .card-3 h1 {
     font-size: .9rem;
@@ -226,16 +217,13 @@ header {
     color: white;
 }
 
-.card-1 button, .card-2 button, .card-3 button {
-    background-color: #9f16c2ee;
-    height: 30px;
-    border: none;
-    padding: 4px;
-    width: 80%;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 4px;
+
+.card-1 {
+    background-color: #8813978a;
+    width: 340px;
+    height: 450px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
 }
 
 .card-2 {
@@ -244,8 +232,6 @@ header {
     height: 450px;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaaa;
-    margin-left: 80px;
-    margin-right: 80px;
 }
 
 .card-3 {
@@ -254,7 +240,11 @@ header {
     height: 450px;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaaa;
-    margin-right: 80px;
+}
+
+.pai{
+    padding-top: 150px;
+    justify-content: center;
 }
 
 .irmão{
@@ -262,6 +252,18 @@ header {
     flex-direction: column;
     align-items: center;
     width: 100%;
+}
+
+.buttozin{
+    background-color: #9f16c2ee;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 15px;
 }
 
 footer {
