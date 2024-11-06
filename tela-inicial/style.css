@@ -28,6 +28,10 @@ body {
     background: linear-gradient(177deg, rgba(83,6,122,1) 0%, rgba(140,24,193,1) 100%);
     display: flex;
     flex-direction: column;
+
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(287.56deg, #630685cb 0%, #3d0352 100%);
 }
 
 header {
@@ -79,6 +83,7 @@ header {
     background-color: #fff;
     padding: 10px 15px;
     border-radius: 5px;
+    margin-top: 38px;
 }
 
 .login-button button a {
@@ -96,6 +101,68 @@ header {
     display: none;
 }
 
+.search-box{
+    position: absolute;
+    right: 300px;
+    top: 57px;
+
+    background-color: white;
+    height: 50px;
+    padding: 10px;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-text{
+    background: none;
+    border: 0;
+    outline: 0;
+
+    padding: 0;
+    
+    font-size: 16px;
+
+    transition: 0.4s;
+    
+    width: 0;
+}
+
+.search-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.loupe-white{
+    display: none;
+}
+
+.search-box:hover > .search-text {
+    width: 320px;
+    padding-left: 20px;
+}
+
+.search-box:hover > .search-btn {
+    background: #3d0352 ;
+}
+
+.search-box:hover > .search-btn .loupe-purple {
+    display: none;
+}
+
+.search-box:hover > .search-btn .loupe-white {
+    display: block;
+}
+
 .corpo-site {
     display: flex;
     justify-content: center;
@@ -107,10 +174,22 @@ header {
 
 .card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     margin: 0;
+    margin-bottom: 30px;
+}
+
+.imglady {
+   height: 450px;
+   width: 340px;
+   border-radius: 11px;
+   text-align: center;
+}
+
+.textladyimg {
+    color: white;
 }
 
 .card-1, .card-2, .card-3 {
@@ -119,44 +198,32 @@ header {
     margin: 0 10px;
 }
 
+.card-1 div, .card-2 div, .card-3 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px; 
+}
+
+
+.card-1 h1, .card-2 h1, .card-3 h1 {
+    font-size: .9rem;
+    color: white;
+}
+
+.card-1 h2, .card-2 h2, .card-3 h2 {
+    font-size: .9rem;
+    color: white;
+}
+
+
 .card-1 {
     background-color: #8813978a;
     width: 340px;
     height: 450px;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaaa;
-    margin-left: 80px;
-}
-
-.card-1 div, .card-2 div, .card-3 div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    height: 120%;
-}
-
-.card-1 h1, .card-2 h1, .card-3 h1 {
-    font-size: .9rem;
-    color: #aaaa;
-}
-
-.card-1 h2, .card-2 h2, .card-3 h2 {
-    font-size: .9rem;
-    color: #aaaa;
-}
-
-.card-1 button, .card-2 button, .card-3 button {
-    background-color: #9f16c2ee;
-    height: 30px;
-    border: none;
-    padding: 4px;
-    width: 80%;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 4px;
 }
 
 .card-2 {
@@ -165,8 +232,6 @@ header {
     height: 450px;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaaa;
-    margin-left: 80px;
-    margin-right: 80px;
 }
 
 .card-3 {
@@ -175,7 +240,30 @@ header {
     height: 450px;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaaa;
-    margin-right: 80px;
+}
+
+.pai{
+    padding-top: 150px;
+    justify-content: center;
+}
+
+.irmão{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.buttozin{
+    background-color: #9f16c2ee;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 15px;
 }
 
 footer {
@@ -193,6 +281,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
+    
 }
 
 #footer_contacts h1 {
