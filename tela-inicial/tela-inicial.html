@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>tela-inicial</title>
     <script src="main.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <header>
-        <nav class="nav-bar">
-            <div class="logo">
-                <h1>Logo</h1>
-            </div>
+        <div>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <img src="../imagens/Group1.svg">
+                </div>
 
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#" class="nav-link"></a>Home</li>
-                    <li class="nav-item"><a href="#" class="nav-link"></a>Lendas</li>
-                    <li class="nav-item"><a href="#" class="nav-link"></a>Sobre</li>
-                </ul>
-            </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#" class="nav-link"></a>Home</li>
+                        <li class="nav-item"><a href="#" class="nav-link"></a>Lendas</li>
+                        <li class="nav-item"><a href="#" class="nav-link"></a>Sobre</li>
+                    </ul>
+                </div>
 
             <div class="login-button">
                 <button><a href="/login/login.html">Login</a></button>
             </div>
+                <div class="search-box">
+                    <input type="text" class="search-text" placeholder="Pesquisar...">
 
                     <a class="search-btn">
                         <img class="loupe-purple" src="../imagens/bx-search-rx.svg" alt="">
@@ -54,45 +61,58 @@
             </div>
         </div>
     </header>
- 
-<div class="corpo-site">
-    <div class="card-container">    
-        <div class="card-1">
-                <img src="img/Group 1 (1).svg">
-            <div>
-                <h1>Titulo</h1>
-                <h2>Descrição</h2>
-                <button>Saiba mais!</button>
-            </div>
-        </div>
 
-        <div class="card-2">
-                <img src="img/Group 1 (1).svg">
-            <div>
-                <h1>Titulo</h1>
-                <h2>Descrição</h2>
-                <button>Saiba mais!</button>
+    <div class="corpo-site">
+        <div class="card-container">
+            <!--cards-->
+            <div class="pai">
+
+                <div class="card-1" id="filho">
+                    <img src="../imagens/images (5).jpg" class="imglady">
+                </div>
+
+                    <div class="irmão">
+                        <h1>LadyGaga</h1>
+                        <h2>Cantora</h2>
+                        <button class="buttozin">Saiba mais!</button>
+                    </div>
             </div>
-        </div>
-    
-        <div class="card-3">
-                <img src="img/Group 1 (1).svg">
-            <div>
-                <h1>Titulo</h1>
-                <h2>Descrição</h2>
-                <button>Saiba mais!</button>
+
+            <div class="pai">
+                
+                <div class="card-2" id="filho">
+                    <img src="../imagens/Group1.svg">
+                </div>
+
+                <div class="irmão">
+                    <h1>Titulo</h1>
+                    <h2>Descrição</h2>
+                    <button class="buttozin">Saiba mais!</button>
+                </div>
+            </div>
+            
+            <div class="pai" id="filho">
+                <div class="card-3">
+                    <img src="../imagens/Group1.svg">
+                </div>
+                    
+                <div class="irmão">
+                        <h1>Titulo</h1>
+                        <h2>Descrição</h2>
+                        <button class="buttozin">Saiba mais!</button>
+                    </div>
             </div>
         </div>
     </div>
-</div>
-<main>
+    <!--fim dos cards-->
+    <main>
 
-</main>
-    <footer><!--resolver o problema do footer nao ficar na parte inferior do site--> 
+    </main>
+    <footer>
         <div id="footer_content">
             <div id="footer_contacts">
-                <h1>Logo</h1>
-                <p>It's all about your dreams.</p>
+                <h2>MelodyeHub</h2>
+                <p>Tudo Sobre o Mundo da Música!</p>
 
                 <div id="footer_social_media">
                     <a href="#" class="footer-link" id="instagram">
@@ -114,19 +134,19 @@
                     <h3>Blog</h3>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Tech</a>
+                    <a href="#" class="footer-link">Tecnologia</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Adventures</a>
+                    <a href="#" class="footer-link">Aventuras</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Music</a>
+                    <a href="#" class="footer-link">Música</a>
                 </li>
             </ul>
 
             <ul class="footer-list">
                 <li>
-                    <h3>Products</h3>
+                    <h3>Produtos</h3>
                 </li>
                 <li>
                     <a href="#" class="footer-link">App</a>
@@ -135,16 +155,15 @@
                     <a href="#" class="footer-link">Desktop</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Cloud</a>
+                    <a href="#" class="footer-link">Nuvem</a>
                 </li>
             </ul>
 
             <div id="footer_subscribe">
-                <h3>Subscribe</h3>
+                <h3>Se inscreva</h3>
 
                 <p>
-                    Enter your e-mail to get notified about
-                    our news solutions
+                    Digite seu e-mail para ser notificado sobre nossas novidades!
                 </p>
 
                 <div id="input_group">
@@ -158,8 +177,9 @@
 
         <div id="footer_copyright">
             &#169
-            2024 all rights reserved
+            2024 todos os direitos reservados
         </div>
-    </footer> 
+    </footer>
 </body>
+
 </html>
