@@ -266,6 +266,11 @@ header {
     color: white;
 }
 
+.saibamais {
+    color: white;
+    text-decoration: none;
+}
+
 .buttozin{
     background-color: #9f16c2ee;
     height: 30px;

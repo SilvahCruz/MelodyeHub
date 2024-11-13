@@ -11,6 +11,7 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -23,9 +24,9 @@
 
                 <div class="nav-list">
                     <ul>
-                        <li class="nav-item"><a href="#" class="nav-link"></a>Home</li>
-                        <li class="nav-item"><a href="#" class="nav-link"></a>Lendas</li>
-                        <li class="nav-item"><a href="#" class="nav-link"></a>Sobre</li>
+                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Lendas</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
                     </ul>
                 </div>
 
@@ -67,39 +68,39 @@
             <!--cards-->
             <div class="pai">
 
-                <div class="card-1" id="filho">
+                <div class="card-1" id="filho" data-aos="fade-down">
                     <img src="../imagens/images (5).jpg" class="imglady">
                 </div>
 
-                    <div class="irmão">
+                    <div class="irmão" data-aos="fade-down">
                         <h1 class="cor">LadyGaga</h1>
                         <h2 class="cor">Artista</h2>
-                        <button class="buttozin">Saiba mais!</button>
+                        <button class="buttozin"><a href="#" class="saibamais">Saiba mais!</a></button>
                     </div>
             </div>
 
             <div class="pai">
                 
-                <div class="card-2" id="filho">
+                <div class="card-2" id="filho" data-aos="fade-down">
                     <img src="../imagens/mrsbruno.png" class="mrsbruno">
                 </div>
 
-                <div class="irmão">
+                <div class="irmão" data-aos="fade-down">
                     <h1 class="cor">Bruno Mars</h1>
                     <h2 class="cor">Artista</h2>
-                    <button class="buttozin">Saiba mais!</button>
+                    <button class="buttozin"><a href="#" class="saibamais">Saiba mais!</a></button>
                 </div>
             </div>
             
-            <div class="pai" id="filho">
+            <div class="pai" id="filho" data-aos="fade-down">
                 <div class="card-3">
                     <img src="../imagens/justin.jpg" class="littlebieber">
                 </div>
                     
-                <div class="irmão">
+                <div class="irmão" data-aos="fade-down">
                         <h1 class="cor">Justin Bieber</h1>
                         <h2 class="cor">Artista</h2>
-                        <button class="buttozin">Saiba mais!</button>
+                        <button class="buttozin"><a href="#" class="saibamais">Saiba mais!</a></button>
                     </div>
             </div>
         </div>
@@ -109,7 +110,7 @@
 
     </main>
     <footer>
-        <div id="footer_content">
+        <div id="footer_content" data-aos="fade-down">
             <div id="footer_contacts">
                 <h2>MelodyeHub</h2>
                 <p>Tudo Sobre o Mundo da Música!</p>
@@ -175,11 +176,15 @@
             </div>
         </div>
 
-        <div id="footer_copyright">
+        <div id="footer_copyright" >
             &#169
             2024 todos os direitos reservados
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
