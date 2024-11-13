@@ -191,6 +191,14 @@ header {
     color: white;
 }
 
+.mrsbruno{
+    border-radius: 11px;
+}
+
+.littlebieber{
+    border-radius: 11px;
+}
+
 .card-1, .card-2, .card-3 {
     flex: 1;
     max-width: 340px;
@@ -251,6 +259,7 @@ header {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 20px;
 }
 
 .cor{
