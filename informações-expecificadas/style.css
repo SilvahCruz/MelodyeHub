@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    /* background:url('https://img.freepik.com/fotos-gratis/conceito-de-fundo-do-estudio-abstrato-vazio-claro-gradiente-roxo-fundo-do-quarto-do-estudio-para-o-produto_1258-54682.jpg?w=826&t=st=1718914876~exp=1718915476~hmac=ec055a503c6f016968f3a58ff3d558ab8a77cfff75d10e36b720f0cd055819cb');
+    background-size: cover; */
+    
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(34, 33, 34) 0%, rgba(34, 33, 34) 100%);
+}

@@ -87,7 +87,7 @@ header {
 
 .login-button button a {
     text-decoration: none;
-    color: #7f37c9;
+    color: #9617b7;
     font-weight: 500;
     font-size: 1.1rem;
 }
@@ -151,7 +151,7 @@ header {
 }
 
 .search-box:hover > .search-btn {
-    background: #3d0352 ;
+    background: #9617b7 ;
 }
 
 .search-box:hover > .search-btn .loupe-purple {
