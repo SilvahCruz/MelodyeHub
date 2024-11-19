@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,7 +9,74 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
 </head>
-<body>
-    
+<header>
+    <div>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="../imagens/Group1.svg">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Lendas</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button><a href="/login/login.html">Login</a></button>
+            </div>
+            <div class="search-box">
+                <input type="text" class="search-text" placeholder="Pesquisar...">
+
+                <a class="search-btn">
+                    <img class="loupe-purple" src="../imagens/bx-search-rx.svg" alt="">
+                    <img class="loupe-white" src="../imagens/bx-search (2).svg" alt="">
+                </a>
+            </div>
+
+
+    </div>
+
+    <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg"></button>
+    </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#" class="nav-link"></a>Home</li>
+            <li class="nav-item"><a href="#" class="nav-link"></a>Lendas</li>
+            <li class="nav-item"><a href="#" class="nav-link"></a>Sobre</li>
+        </ul>
+
+        <div class="login-button">
+            <button><a href="/login/login.html">Login</a></button>
+        </div>
+    </div>
+</header>
+<div class="corpo-site">
+    <div class="card-container">
+        <!--card-geral-->
+        <div class="pai">
+            
+            <div class="card-2" id="filho" data-aos="fade-down">
+                <img src="../imagens/mrsbruno.png" class="mrsbruno">
+            </div>
+
+            <div class="irmão" data-aos="fade-down">
+                <h1 class="cor">Bruno Mars</h1>
+                <h2 class="cor">Artista</h2>
+                <button class="buttozin"><a href="#" class="saibamais">Saiba mais!</a></button>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
 </body>
+
 </html>
