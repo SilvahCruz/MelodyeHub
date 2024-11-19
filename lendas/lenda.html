@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tela-inicial</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+ 
+<body>
+    <header>
+        <div>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <img src="../imagens/Group1.svg">
+                </div>
+ 
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#" class="nav-link"></a>Home</li>
+                        <li class="nav-item"><a href="#" class="nav-link"></a>Lendas</li>
+                        <li class="nav-item"><a href="#" class="nav-link"></a>Sobre</li>
+                    </ul>
+                </div>
+ 
+            <div class="login-button">
+                <button><a href="/login/login.html">Login</a></button>
+            </div>
+                <div class="search-box">
+                    <input type="text" class="search-text" placeholder="Pesquisar...">
+ 
+                    <a class="search-btn">
+                        <img class="loupe-purple" src="../imagens/bx-search-rx.svg" alt="">
+                        <img class="loupe-white" src="../imagens/bx-search.svg" alt="">
+                    </a>
+                </div>
+ 
+             
+        </div>
+ 
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg"></button>
+        </div>
+        </nav>
+ 
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link"></a>Home</li>
+                <li class="nav-item"><a href="#" class="nav-link"></a>Lendas</li>
+                <li class="nav-item"><a href="#" class="nav-link"></a>Sobre</li>
+            </ul>
+ 
+            <div class="login-button">
+                <button><a href="/login/login.html">Login</a></button>
+            </div>
+        </div>
+    </header>
+ 
+    <div class="corpo-site">
+        <div class="card-container">
+            <!--cards-->
+            <div class="pai">
+ 
+                <div class="card-1" id="filho">
+                    <img src="../imagens/images (5).jpg" class="imglady">
+                </div>
+ 
+                    <div class="irmão">
+                        <h1 class="cor">LadyGaga</h1>
+                        <h2 class="cor">Artista</h2>
+                        <button class="buttozin">Saiba mais!</button>
+                    </div>
+            </div>
+ 
+            <div class="pai">
+               
+                <div class="card-2" id="filho">
+                    <img src="../imagens/mrsbruno.png" class="mrsbruno">
+                </div>
+ 
+                <div class="irmão">
+                    <h1 class="cor">Bruno Mars</h1>
+                    <h2 class="cor">Artista</h2>
+                    <button class="buttozin">Saiba mais!</button>
+                </div>
+            </div>
+           
+            <div class="pai" id="filho">
+                <div class="card-3">
+                    <img src="../imagens/justin.jpg" class="littlebieber">
+                </div>
+                   
+                <div class="irmão">
+                        <h1 class="cor">Justin Bieber</h1>
+                        <h2 class="cor">Artista</h2>
+                        <button class="buttozin">Saiba mais!</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!--fim dos cards-->
+    <main>
+ 
+    </main>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h2>MelodyeHub</h2>
+                <p>Tudo Sobre o Mundo da Música!</p>
+ 
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+ 
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+ 
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+ 
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Tecnologia</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Aventuras</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Música</a>
+                </li>
+            </ul>
+ 
+            <ul class="footer-list">
+                <li>
+                    <h3>Produtos</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">App</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Desktop</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Nuvem</a>
+                </li>
+            </ul>
+ 
+            <div id="footer_subscribe">
+                <h3>Se inscreva</h3>
+ 
+                <p>
+                    Digite seu e-mail para ser notificado sobre nossas novidades!
+                </p>
+ 
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+ 
+        <div id="footer_copyright">
+            &#169
+            2024 todos os direitos reservados
+        </div>
+    </footer>
+</body>
+ 
+</html>
