@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (hashedPasswordInput === storedPassword) {
                 alert("Login bem-sucedido!");
                 // Redirecionar para a página inicial ou dashboard
-                window.location.href = "/tela-inicial/tela-inicial.html";
+                window.location.href = "../index.html";
             } else {
                 alert("Senha incorreta!");
             }
