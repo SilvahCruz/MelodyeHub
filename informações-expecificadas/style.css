@@ -36,6 +36,12 @@ body {
     box-shadow: 0px 3px 10px #464646;
 }
 
+header {
+    
+    background: linear-gradient(rgb(34, 33, 34) 0%, rgba(34, 33, 34) 100%);
+    box-shadow: 0px 2px 5px #3f3f3f;
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
