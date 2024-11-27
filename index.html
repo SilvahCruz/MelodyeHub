@@ -24,15 +24,22 @@
 
                 <div class="nav-list">
                     <ul>
-                        <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="/lendas/lenda.html" class="nav-link">Lendas</a></li>
-                        <li class="nav-item"><a href="/sobre/sobre.html" class="nav-link">Sobre</a></li>
+                        <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="./lendas/lenda.html" class="nav-link">Lendas</a></li>
+                        <li class="nav-item"><a href="./sobre/sobre.html" class="nav-link">Sobre</a></li>
                     </ul>
                 </div>
 
-            <div class="login-button">
-                <button><a href="/login/login.html">Login</a></button>
+            <!-- Botão de Login (visível se o usuário não estiver logado) -->
+            <div class="login-button" id="loginButton">
+                <button><a href="./login/login.html" id="loginLink">Login</a></button>
             </div>
+
+            <!-- Botão de Logout (visível se o usuário estiver logado) -->
+            <div class="login-button" id="logoutButton" style="display: none;">
+                <button id="logoutButtonElement"><a>Logout</a></button>
+            </div>
+
                 <div class="search-box">
                     <input type="text" class="search-text" placeholder="Pesquisar...">
 

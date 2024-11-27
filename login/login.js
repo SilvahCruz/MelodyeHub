@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Verificar se a senha criptografada coincide com a armazenada
             if (hashedPasswordInput === storedPassword) {
                 alert("Login bem-sucedido!");
+                localStorage.setItem("situacao", "logout")
                 // Redirecionar para a página inicial ou dashboard
                 window.location.href = "../index.html";
             } else {

@@ -92,6 +92,23 @@ header {
     font-size: 1.1rem;
 }
 
+#logoutButton button {
+    border: none;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 38px;
+    cursor: pointer;
+}
+
+#logoutButton button a {
+    text-decoration: none;
+    color: #9617b7;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
 .mobile-menu-icon {
     display: none;
 }

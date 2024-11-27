@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Cadastro realizado com sucesso!");
 
         // Redirecionar para a página de login (opcional)
-        window.location.href = "/login/login.html";
+        window.location.href = "../login/login.html";
     });
 
     // Função para criptografar a senha em SHA-256
