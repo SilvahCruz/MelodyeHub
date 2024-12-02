@@ -167,8 +167,8 @@ header {
 
 .corpo-site {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     height: 100vh;
     font-family: Arial;
     gap: 16px;
@@ -178,15 +178,12 @@ header {
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 100%;
     margin: 0;
-    margin-bottom: 30px;
     padding: 80px;
 }
 
 .mrsbruno{
     border-radius: 11px;
-    size: 150px;
 }
 
 .card-2 {
@@ -221,8 +218,9 @@ header {
 }
 
 .pai{
-    padding-top: 150px;
     justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .irmão{
@@ -240,6 +238,20 @@ header {
 .saibamais {
     color: white;
     text-decoration: none;
+}
+
+.nome-info {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+
+.info {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-top: 60px !important;
 }
 
 footer {
