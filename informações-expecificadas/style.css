@@ -176,10 +176,16 @@ header {
 
 .card-container {
     display: flex;
+    flex-direction: column  ;
     justify-content: start;
     align-items: center;
     margin: 0;
     padding: 80px;
+}
+
+.nome-artistico {
+    padding: 20px;
+    color: white;
 }
 
 .mrsbruno{
